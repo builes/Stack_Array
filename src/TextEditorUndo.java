@@ -74,7 +74,7 @@ public class TextEditorUndo {
         }
         // Iterate through the stack and print each action
         for (int i = 0; i <= top; i++) {
-            System.out.println(stack[stack.length - 1 - i]);
+            System.out.println(stack[top - i]);
         }
         System.out.println(); // Print a new line for better formatting
     }
